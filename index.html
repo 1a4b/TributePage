@@ -25,6 +25,17 @@
                 max-width: 80%;
                 height: auto;
             }
+
+            #book-list {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-gap: 15px;
+            }
+            .book {
+                background-color: rgb(161, 161, 161);
+                border-radius: 5px;
+                display: grid;
+            }
         </style>
     </head>
 </html>
@@ -41,6 +52,25 @@
         <div id="tribute-info">
             <p>Information about Kevin Wilson goes here</p>
             <a href="kevinwilson.com" target="_blank" id="tribute-link">Learn more about Kevin Wilson at his website.</a>
+        </div>
+        <h2>
+            Books by Wilson
+        </h2>
+        <div id="book-list">
+            <div class="book">
+                <p>Book 1</p>
+            </div>
+            <div class="book">
+                <div class="book-picture">
+                    <!--Image goes here-->
+                </div>
+                <div class="book-title">
+                    <h2>Book Title Goes Here</h2>
+                </div>
+                <div class="book-summary">
+                    <p>Book Summary goes here</p>
+                </div>
+            </div>
         </div>
     </main>
 </body> 

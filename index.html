@@ -37,10 +37,18 @@
                 background-color: rgb(161, 161, 161);
                 border-radius: 5px;
                 display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 200px 200px;
                 grid-template-areas: 
-                "book-title book-title"
-                "book-cover book-summary"
+                "title-area title-area"
+                "cover-area summary-area";
             }
+            .book-title {
+                margin: auto;
+                grid-area: title-area;
+            }
+
+        
 
         </style>
     </head>

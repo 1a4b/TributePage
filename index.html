@@ -38,7 +38,7 @@
                 border-radius: 5px;
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                grid-template-rows: 200px 200px;
+                grid-template-rows: auto auto;
                 grid-template-areas: 
                 "title-area title-area"
                 "cover-area summary-area";
@@ -71,7 +71,26 @@
         </h2>
         <div id="book-list">
             <div class="book">
-                <p>Book 1</p>
+                <div class="book-cover">
+                    <img src = "https://images-na.ssl-images-amazon.com/images/I/61Qietv6kgL._SX329_BO1,204,203,200_.jpg" alt ="Cover of the book Nothing to see here, pictures the bottom half of a child, with the top half obscured by fire">
+                </div>
+                <div class="book-title title">
+                    <h3>Nothing to See Here</h3>
+                </div>
+                <div class="book-summary">
+                    <p>The New York Times Bestseller about a nanny for exploding children.</p>
+                </div>
+            </div>
+            <div class="book">
+                <div class="book-cover"> 
+                    <!--Image goes here-->
+                </div>
+                <div class="book-title title">
+                    <h3>Book Title Goes Here</h3>
+                </div>
+                <div class="book-summary">
+                    <p>Book Summary goes here</p>
+                </div>
             </div>
             <div class="book">
                 <div class="book-cover">

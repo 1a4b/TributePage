@@ -30,7 +30,7 @@
                 background-color: rgb(78, 78, 78);
                 padding: 20px;
                 display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-columns: repeat(3, minmax(200px, 400px));
                 grid-gap: 15px;
             }
             .book {
@@ -38,6 +38,7 @@
                 border-radius: 5px;
                 display: grid;
                 grid-template-columns: 1fr 1fr;
+                padding: 10px;
                 grid-template-rows: auto auto;
                 grid-template-areas: 
                 "title-area title-area"
@@ -47,6 +48,7 @@
                 margin: auto;
                 grid-area: title-area;
             }
+
 
 
         </style>

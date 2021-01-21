@@ -7,7 +7,7 @@
                 background-color: #E8D9DF;
             }
 
-            #title {
+            .title {
                 font-family: 'Times New Roman', Times, serif;
                 text-transform: uppercase;
                 text-align: center;
@@ -27,6 +27,8 @@
             }
 
             #book-list {
+                background-color: rgb(78, 78, 78);
+                padding: 20px;
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
                 grid-gap: 15px;
@@ -45,7 +47,7 @@
 </html>
 <body>
     <header>
-        <h1 id="title">Kevin Wilson</h1>
+        <h1 class="title">Kevin Wilson</h1>
     </header>
     <main id="main">
 
@@ -57,7 +59,7 @@
             <p>Information about Kevin Wilson goes here</p>
             <a href="kevinwilson.com" target="_blank" id="tribute-link">Learn more about Kevin Wilson at his website.</a>
         </div>
-        <h2>
+        <h2 class="title">
             Books by Wilson
         </h2>
         <div id="book-list">
@@ -69,7 +71,7 @@
                     <!--Image goes here-->
                 </div>
                 <div class="book-cover">
-                    <h2>Book Title Goes Here</h2>
+                    <h3>Book Title Goes Here</h3>
                 </div>
                 <div class="book-summary">
                     <p>Book Summary goes here</p>

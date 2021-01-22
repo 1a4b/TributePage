@@ -83,7 +83,7 @@
                 5px 5px 5px grey,
                 -1px -1px 5px grey;
             }
-            
+
             .book-title {
                 margin: auto;
                 grid-area: title-area;
@@ -92,12 +92,17 @@
             .book-summary {
                 grid-area: summary-area;
                 align-self: center;
-                border-radius: 2px;
             }
 
             .book-cover {
                 grid-area: cover-area;
                 align-self: center;
+            }
+
+            .cover-image {
+                border-radius:5px;
+                padding: -3px;
+                border: 5px solid #79626b;
             }
 
             #tribute-info {
@@ -133,7 +138,7 @@
         <div id="book-list">
             <div class="book">
                 <div class="book-cover">
-                    <img src = "https://images-na.ssl-images-amazon.com/images/I/61Qietv6kgL._SX329_BO1,204,203,200_.jpg" alt ="Cover of the book Nothing to see here, pictures the bottom half of a child, with the top half obscured by fire">
+                    <img src = "https://images-na.ssl-images-amazon.com/images/I/61Qietv6kgL._SX329_BO1,204,203,200_.jpg" alt ="Cover of the book Nothing to see here, pictures the bottom half of a child, with the top half obscured by fire" class="cover-image">
                 </div>
                 <div class="book-title title">
                     <h3>Nothing to See Here</h3>

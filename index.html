@@ -72,7 +72,7 @@
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 padding: 10px;
-                grid-template-rows: auto auto;
+                grid-template-rows: 3rem auto;
                 grid-template-areas: 
                 "title-area title-area"
                 "cover-area summary-area";
@@ -87,6 +87,7 @@
             .book-title {
                 margin: auto;
                 grid-area: title-area;
+                align-self: end;
             }
 
             .book-summary {
@@ -102,7 +103,7 @@
             .cover-image {
                 border-radius:5px;
                 padding: -3px;
-                border: 5px solid #79626b;
+                border: 5px solid black;
             }
 
             #tribute-info {

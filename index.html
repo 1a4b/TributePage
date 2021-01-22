@@ -50,7 +50,7 @@
             #image {
                 padding: 0.75rem;
                 border-radius: 5px;
-                border: 1rem solid grey;
+                border: 1rem solid rgb(49, 49, 49);
             }
 
             #book-list {
@@ -65,8 +65,8 @@
                 grid-gap: 15px;*/
             }
             .book {
-                background-color: rgb(161, 161, 161);
-                width: 25rem;
+                background-color: rgb(49, 49, 49);
+                width: 30rem;
                 height: 20rem;
                 margin: 1rem;
                 border-radius: 5px;
@@ -88,31 +88,36 @@
             .book-title {
                 margin: auto;
                 grid-area: title-area;
-                align-self: end;
+                font-size: 1.2rem;
+                color: white;
             }
 
             .book-summary {
                 grid-area: summary-area;
                 align-self: center;
-                padding: 10px;
+                padding: 0px 25px 0px 0px;
+                font-style: italic;
+                color:white;
             }
 
             .book-cover {
                 grid-area: cover-area;
                 align-self: center;
+                width: 80%;
+                height: auto;
+                padding-top: 10px;
             }
 
             .cover-image {
-                border-radius:5px;
+                border-radius:2px;
                 padding: -3px;
-                border: 5px solid black;
             }
 
             #tribute-info {
                 text-align: center;
                 font-family: 'Open Sans', sans-serif;
-                font-size: 1.2rem;
-                padding: 3rem;
+                font-size: 1rem;
+                padding: 1rem;
             }
 
             p {
@@ -133,11 +138,11 @@
             <p id="img-caption">Writer Kevin Wilson</p>
         </div>
         <div id="tribute-info">
-            <p>Information about Kevin Wilson goes here. <a href="kevinwilson.com" target="_blank" id="tribute-link">Learn more about Kevin Wilson at his website.</a>
+            <p>"Kevin Wilson is the author of the novels The Family Fang, a New York Times bestseller adapted into an acclaimed film starring Nicole Kidman, and Perfect Little World, as well as the story collections Tunneling to the Center of the Earth, winner of the Shirley Jackson Award, and Baby, You’re Gonna Be Mine. He lives in Sewanee, Tennessee, with his wife and two sons. <italic>&mdash; Harper Collins</italic>" <a href="kevinwilson.com" target="_blank" id="tribute-link">Learn more about Kevin Wilson at his website.</a>
             </p>
         </div>
         <h2 class="title">
-            Books by Wilson
+            Novels by Wilson
         </h2>
         <div id="book-list">
             <div class="book">
@@ -148,7 +153,7 @@
                     <h3>Nothing to See Here</h3>
                 </div>
                 <div class="book-summary">
-                    <p>The New York Times Bestseller about a nanny for exploding children.</p>
+                    <p>"Ten-year-olds Bessie and Roland sometimes burst into flames, and Madison is desperate to avoid a scandal upsetting the senator’s chances of becoming secretary of state..." <br>-Publisher's Weekly</p>
                 </div>
             </div>
             <div class="book">
@@ -159,18 +164,18 @@
                     <h3>The Family Fang</h3>
                 </div>
                 <div class="book-summary">
-                    <p>Book Summary goes here</p>
+                    <p>"Wilson's bizarre, mirthful debut novel...traces the genesis of the Fang family, art world darlings who make 'strange and memorable things.' That is, they instigate and record public chaos." - Publisher's Weekly</p>
                 </div>
             </div>
             <div class="book">
                 <div class="book-cover">
-                    <img src ="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1469840289l/29229956._SY475_.jpg" alt ="" class="cover-image">
+                    <img src ="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1469840289l/29229956._SY475_.jpg" alt ="Book cover for Perfect Little World, picturing eggs in a nest and one egg out of the next." class="cover-image">
                 </div>
                 <div class="book-title title">
                     <h3>Perfect Little World</h3>
                 </div>
                 <div class="book-summary">
-                    <p>Book Summary goes here</p>
+                    <p>"...When [Izzy Poole] is approached by idealistic child psychologist Dr. Preston Grind to join an experiment in communal child raising funded by the billionaire heiress to a retail store fortune, she somewhat reluctantly takes up the offer." - Publisher's Weekly</p>
                 </div>
             </div>
         </div>
